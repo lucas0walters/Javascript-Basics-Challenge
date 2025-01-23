@@ -11,8 +11,8 @@ let productName = "Product Name"
 const productPrice = 1
 var isAvailable = true
 console.log(`productName = ${productName}\nType is: ${typeof(productName)}\n
-employeeID = ${productPrice}\nType is: ${typeof(productPrice)}\n
-isActive = ${isAvailable}\nType is: ${typeof(isAvailable)}`)
+productPrice = ${productPrice}\nType is: ${typeof(productPrice)}\n
+isAvailable = ${isAvailable}\nType is: ${typeof(isAvailable)}`)
 
 //Task 3 - Financial Transactions.
 let accountBalance = 0
@@ -29,3 +29,11 @@ console.log(`accountBalance = ${accountBalance}`)
 //Task 4 - Customer Messaging.
 let customerName = "Customer Name"
 console.log("Dear " + customerName + ",\nWelcome to the service. Thank you for choosing our service.")
+
+//Task 5 - Access Control.
+let isLoggedIn = true
+if (isLoggedIn == 1) {
+    console.log("User is logged in.")
+} else {
+    console.log("User is not logged in.")
+}
