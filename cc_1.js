@@ -25,3 +25,7 @@ accountBalance /= 2
 console.log(`accountBalance = ${accountBalance}`)
 accountBalance *= 5
 console.log(`accountBalance = ${accountBalance}`)
+
+//Task 4 - Customer Messaging.
+let customerName = "Customer Name"
+console.log("Dear " + customerName + ",\nWelcome to the service. Thank you for choosing our service.")
