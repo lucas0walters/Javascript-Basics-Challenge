@@ -13,3 +13,15 @@ var isAvailable = true
 console.log(`productName = ${productName}\nType is: ${typeof(productName)}\n
 employeeID = ${productPrice}\nType is: ${typeof(productPrice)}\n
 isActive = ${isAvailable}\nType is: ${typeof(isAvailable)}`)
+
+//Task 3 - Financial Transactions.
+let accountBalance = 0
+console.log(`accountBalance = ${accountBalance}`)
+accountBalance += 15
+console.log(`accountBalance = ${accountBalance}`)
+accountBalance -= 5
+console.log(`accountBalance = ${accountBalance}`)
+accountBalance /= 2
+console.log(`accountBalance = ${accountBalance}`)
+accountBalance *= 5
+console.log(`accountBalance = ${accountBalance}`)
